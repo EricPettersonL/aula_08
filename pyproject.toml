@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aula-08"
+version = "0.1.0"
+description = ""
+authors = ["Eric Petterson <ericpl.ff@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+pandas = "^2.2.1"
+pandera = "^0.18.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
